@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5523a011e1a7cb94e93dd1621bf61dcb, type: 3}
+  m_Name: Grammar Manager
+  m_EditorClassIdentifier: 
+  levelGrammar:
+    file: {fileID: 4900000, guid: b72744ee6b7da784dba1fb02d1b7f60b, type: 3}
+    grammar:
+      terminalSymbols:
+      - Start
+      - End
+      - Corridor
+      - LCorridor
+      - 4Way
+      - .
+      nonTerminalSymbols:
+      - Level
+      - Path
+      productionRules:
+      - nonTerminal: Level
+        result: Start Path End
+        probability: 100
+      - nonTerminal: Path
+        result: Corridor Path
+        probability: 15
+      - nonTerminal: Path
+        result: LCorridor Path
+        probability: 20
+      - nonTerminal: Path
+        result: 4Way Path
+        probability: 15
+      - nonTerminal: Path
+        result: .
+        probability: 60
+      probabilityAdjustment: 10
+      minimumProbability: 15
+      maximumProbability: 60
+  contentGrammar:
+    file: {fileID: 4900000, guid: a2b69bef0facdb34da7736ec73516cde, type: 3}
+    grammar:
+      terminalSymbols:
+      - .
+      - Bat
+      - Spike
+      - Treasure
+      nonTerminalSymbols:
+      - Start
+      - LCorridor
+      - 4Way
+      - End
+      - Corridor
+      - Monster
+      - Trap
+      - Chest
+      productionRules:
+      - nonTerminal: Start
+        result: .
+        probability: 60
+      - nonTerminal: LCorridor
+        result: Monster Trap
+        probability: 15
+      - nonTerminal: 4Way
+        result: Monster Trap Chest
+        probability: 15
+      - nonTerminal: End
+        result: Chest
+        probability: 15
+      - nonTerminal: Corridor
+        result: Trap Chest
+        probability: 15
+      - nonTerminal: Monster
+        result: Bat
+        probability: 55
+      - nonTerminal: Monster
+        result: .
+        probability: 45
+      - nonTerminal: Trap
+        result: Spike
+        probability: 55
+      - nonTerminal: Trap
+        result: .
+        probability: 45
+      - nonTerminal: Chest
+        result: Treasure
+        probability: 55
+      - nonTerminal: Chest
+        result: .
+        probability: 45
+      probabilityAdjustment: 10
+      minimumProbability: 15
+      maximumProbability: 60
+  probabilityAdjustement: 0
+  minimumProbability: 0
+  maximumProbability: 0

@@ -1,0 +1,8 @@
+Level-Start Path End:100
+Path-Corridor Path:20
+Path-Corridor Corridor Path:10
+Path-Corridor 4Way Path:20
+Path-4Way Path:15
+Path-Corridor:5
+Path-4Way:10
+Path-.:20

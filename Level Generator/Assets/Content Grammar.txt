@@ -1,0 +1,15 @@
+Start-Content:100
+LCorridor-Content:100
+4Way-Monster Content:100
+End-Content:100
+Corridor-Content:100
+Content-Monster Content:50
+Content-Trap Content:50
+Content-Chest Content:50
+Content-.:0
+Monster-Bat:100
+Monster-.:0
+Trap-Spike:100
+Trap-.:0
+Chest-Treasure:100
+Chest-.:0

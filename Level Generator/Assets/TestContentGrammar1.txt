@@ -1,0 +1,6 @@
+Start-Chest Start:50
+Start-.:50
+Corridor-Trap Corridor:50
+Corridor-.:50
+End-Bat End:50
+End-.:50

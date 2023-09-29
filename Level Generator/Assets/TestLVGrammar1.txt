@@ -1,0 +1,3 @@
+Level-Start Path End:100
+Path-Corridor Path:90
+Path-.:10
