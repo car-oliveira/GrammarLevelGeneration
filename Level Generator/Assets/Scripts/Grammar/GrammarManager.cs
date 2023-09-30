@@ -27,7 +27,7 @@ public class GrammarManager : ScriptableObject
         }
     }
 
-    public void ExtractGrammarFromFile(bool isLevelGrammar)
+    public void ExtractGrammarFromFile(bool isLevelGrammar, float probabilityAdjustment, float minimumProbability, float maximumProbability)
     {
         if (isLevelGrammar){
             string fileText = this.levelGrammar.file.text;
@@ -37,7 +37,7 @@ public class GrammarManager : ScriptableObject
             HashSet<string> terminals = GetTerminalSymbols(productionRules, nonTerminals);
             List<string> terminalsList = terminals.ToList<string>();
             List<string> nonTerminalsList = nonTerminals.ToList<string>();
-            Grammar extractedGrammar = new Grammar(terminalsList, nonTerminalsList, productionRules);
+            Grammar extractedGrammar = new Grammar(terminalsList, nonTerminalsList, productionRules, probabilityAdjustment, minimumProbability, maximumProbability);
             CreateRoomAssets(extractedGrammar);
             this.levelGrammar.grammar = extractedGrammar;
         }
@@ -50,39 +50,39 @@ public class GrammarManager : ScriptableObject
             HashSet<string> terminals = GetTerminalSymbols(productionRules, nonTerminals);
             List<string> terminalsList = terminals.ToList<string>();
             List<string> nonTerminalsList = nonTerminals.ToList<string>();
-            Grammar extractedGrammar = new Grammar(terminalsList, nonTerminalsList, productionRules);
+            Grammar extractedGrammar = new Grammar(terminalsList, nonTerminalsList, productionRules, probabilityAdjustment, minimumProbability, maximumProbability);
             CreateRoomAssets(extractedGrammar);
             this.contentGrammar.grammar = extractedGrammar;
         }
     }
 
-    public void ExtractLevelGrammarFromFile()
-    {
-        string fileText = this.levelGrammar.file.text;
-        string[] rules = fileText.Split(new[] { '\n' },StringSplitOptions.RemoveEmptyEntries);
-        List<ProductionRule> productionRules=GetProductionRules(rules);
-        HashSet<string> nonTerminals = GetNonTerminalSymbols(productionRules);
-        HashSet<string> terminals = GetTerminalSymbols(productionRules, nonTerminals);
-        List<string> terminalsList = terminals.ToList<string>();
-        List<string> nonTerminalsList = nonTerminals.ToList<string>();
-        Grammar extractedGrammar = new Grammar(terminalsList, nonTerminalsList, productionRules);
-        CreateRoomAssets(extractedGrammar);
-        this.levelGrammar.grammar = extractedGrammar;
-    }
+    //public void ExtractLevelGrammarFromFile()
+    //{
+    //    string fileText = this.levelGrammar.file.text;
+    //    string[] rules = fileText.Split(new[] { '\n' },StringSplitOptions.RemoveEmptyEntries);
+    //    List<ProductionRule> productionRules=GetProductionRules(rules);
+    //    HashSet<string> nonTerminals = GetNonTerminalSymbols(productionRules);
+    //    HashSet<string> terminals = GetTerminalSymbols(productionRules, nonTerminals);
+    //    List<string> terminalsList = terminals.ToList<string>();
+    //    List<string> nonTerminalsList = nonTerminals.ToList<string>();
+    //    Grammar extractedGrammar = new Grammar(terminalsList, nonTerminalsList, productionRules);
+    //    CreateRoomAssets(extractedGrammar);
+    //    this.levelGrammar.grammar = extractedGrammar;
+    //}
 
-    public void ExtractContentGrammarFromFile()
-    {
-        string fileText = this.contentGrammar.file.text;
-        string[] rules = fileText.Split(new[] { '\n' }, StringSplitOptions.RemoveEmptyEntries);
-        List<ProductionRule> productionRules = GetProductionRules(rules);
-        HashSet<string> nonTerminals = GetNonTerminalSymbols(productionRules);
-        HashSet<string> terminals = GetTerminalSymbols(productionRules, nonTerminals);
-        List<string> terminalsList = terminals.ToList<string>();
-        List<string> nonTerminalsList = nonTerminals.ToList<string>();
-        Grammar extractedGrammar = new Grammar(terminalsList, nonTerminalsList, productionRules);
-        CreateRoomAssets(extractedGrammar);
-        this.contentGrammar.grammar = extractedGrammar;
-    }
+    //public void ExtractContentGrammarFromFile()
+    //{
+    //    string fileText = this.contentGrammar.file.text;
+    //    string[] rules = fileText.Split(new[] { '\n' }, StringSplitOptions.RemoveEmptyEntries);
+    //    List<ProductionRule> productionRules = GetProductionRules(rules);
+    //    HashSet<string> nonTerminals = GetNonTerminalSymbols(productionRules);
+    //    HashSet<string> terminals = GetTerminalSymbols(productionRules, nonTerminals);
+    //    List<string> terminalsList = terminals.ToList<string>();
+    //    List<string> nonTerminalsList = nonTerminals.ToList<string>();
+    //    Grammar extractedGrammar = new Grammar(terminalsList, nonTerminalsList, productionRules);
+    //    CreateRoomAssets(extractedGrammar);
+    //    this.contentGrammar.grammar = extractedGrammar;
+    //}
 
     public void ResetCopyGrammars()
     {

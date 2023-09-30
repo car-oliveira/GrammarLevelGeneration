@@ -1,260 +1,72 @@
-Level: Start LCorridor Corridor LCorridor End 
-Content: Spike Bat Bat 
-Time: 1,54837
-
-Level: Start Corridor LCorridor 4Way End Corridor End Corridor 4Way 4Way 4Way End LCorridor End End Corridor End End End End 
-Content: Treasure Bat Bat Spike Bat Bat Bat 
-Time: 1,775357
-
-Level: Start 4Way Corridor LCorridor End End Corridor End 
-Content: Bat Spike Bat Treasure 
-Time: 1,785243
-
-Level: Start 4Way Corridor LCorridor 4Way End LCorridor End Corridor End LCorridor End 4Way LCorridor End Corridor End End 
-Content: Spike Bat Bat Treasure Bat Bat Bat Treasure Treasure Treasure 
-Time: 1,77037
-
-Level: Start LCorridor Corridor 4Way Corridor LCorridor LCorridor End End 4Way End Corridor End End 
-Content: Spike 
-Time: 1,751835
-
-Level: Start LCorridor Corridor 4Way Corridor Corridor End 4Way LCorridor End 4Way Corridor End End Corridor End End End 
-Content: Bat Treasure Treasure Spike Bat Bat Bat Treasure 
-Time: 1,777241
-
-Level: Start LCorridor Corridor LCorridor Corridor End 
-Content: Spike Treasure Bat Bat 
-Time: 1,831448
-
-Level: Start 4Way Corridor 4Way End 4Way End End LCorridor End End End End 
-Content: Bat Bat Treasure Spike Bat 
-Time: 1,882679
-
-Level: Start Corridor LCorridor 4Way End End End 
-Content: 
-Time: 1,482081
-
-Level: Start Corridor 4Way LCorridor Corridor LCorridor Corridor Corridor End Corridor End Corridor End 
-Content: Bat Treasure 
-Time: 2,113501
-
-Level: Start LCorridor LCorridor Corridor End 
-Content: 
-Time: 1,839214
-
-Level: Start Corridor LCorridor Corridor LCorridor 4Way 4Way 4Way LCorridor End End End Corridor End End End End 
-Content: Treasure Bat Bat Bat Treasure Treasure Treasure Treasure 
-Time: 1,794744
-
-Level: Start 4Way 4Way LCorridor End End End End Corridor LCorridor End 
-Content: Treasure Bat Treasure Treasure Spike Treasure Bat Spike 
-Time: 2,216931
-
-Level: Start Corridor LCorridor Corridor End 
-Content: Treasure Bat 
-Time: 1,502665
-
-Level: Start LCorridor 4Way Corridor End End End 
-Content: Bat Bat 
-Time: 1,855774
-
-Level: Start Corridor LCorridor Corridor 4Way LCorridor End End LCorridor End 
-Content: Bat Bat Treasure 
-Time: 1,724804
-
-Level: Start LCorridor Corridor Corridor End 
-Content: Bat Bat Spike 
-Time: 1,488684
-
-Level: Start Corridor LCorridor 4Way LCorridor End End End 
-Content: Spike Bat Spike Treasure Treasure Bat Bat Bat Treasure Treasure 
-Time: 1,70536
-
-Level: Start Corridor Corridor LCorridor Corridor End 
-Content: Spike Bat 
-Time: 1,448652
-
-Level: Start 4Way Corridor 4Way End End End Corridor End End 
-Content: Treasure Bat Treasure Treasure 
-Time: 1,713508
-
-Level: Start 4Way Corridor LCorridor End End End 
-Content: Bat Treasure Spike Treasure Bat Treasure Treasure Treasure 
-Time: 2,435727
-
-Level: Start Corridor LCorridor LCorridor End 
-Content: Spike Bat Spike Treasure 
-Time: 1,683935
-
-Level: Start 4Way LCorridor Corridor End LCorridor End End 
-Content: Bat Spike Treasure Spike Treasure Treasure Spike Treasure 
-Time: 1,842788
-
-Level: Start LCorridor LCorridor Corridor End 
-Content: Spike Bat Spike Spike Treasure Treasure 
-Time: 1,960044
-
-Level: Start LCorridor Corridor Corridor LCorridor End 
-Content: Spike Treasure Spike Treasure Spike Treasure 
-Time: 1,526959
-
-Level: Start LCorridor 4Way LCorridor LCorridor End End End 
-Content: Bat Spike Bat Treasure 
-Time: 1,751116
-
-Level: Start Corridor LCorridor Corridor Corridor Corridor Corridor LCorridor 4Way End End End 
-Content: 
-Time: 2,373189
-
-Level: Start LCorridor LCorridor Corridor End 
-Content: 
-Time: 1,501353
-
-Level: Start Corridor Corridor LCorridor LCorridor End 
-Content: 
-Time: 1,550421
-
-Level: Start LCorridor 4Way 4Way End End Corridor Corridor Corridor End End End 
-Content: 
-Time: 1,893785
-
-Level: Start Corridor 4Way Corridor End End End 
-Content: 
-Time: 1,954808
-
-Level: Start LCorridor Corridor LCorridor End 
-Content: 
-Time: 1,48686
-
-Level: Start 4Way Corridor 4Way LCorridor End Corridor LCorridor LCorridor 4Way Corridor Corridor End Corridor End End End LCorridor End End 
-Content: 
-Time: 1,809344
-
-Level: Start LCorridor LCorridor 4Way End End End 
-Content: 
-Time: 1,754578
-
-Level: Start LCorridor 4Way 4Way Corridor End End Corridor Corridor End Corridor Corridor End End 
-Content: 
-Time: 1,918755
-
-Level: Start LCorridor 4Way LCorridor End End 4Way Corridor End Corridor End End 
-Content: 
-Time: 1,768896
-
-Level: Start 4Way Corridor LCorridor End End Corridor End 
-Content: 
-Time: 1,775535
-
-Level: Start LCorridor Corridor Corridor End 
-Content: 
-Time: 1,490525
-
-Level: Start LCorridor Corridor Corridor End 
-Content: 
-Time: 1,494138
-
-Level: Start Corridor LCorridor Corridor End 
-Content: 
-Time: 1,477963
-
-Level: Start LCorridor Corridor Corridor Corridor Corridor End 
-Content: Treasure Spike Treasure Treasure 
-Time: 1,511051
-
-Level: Start LCorridor LCorridor Corridor End 
-Content: Bat Bat Treasure 
-Time: 2,291791
-
-Level: Start 4Way LCorridor Corridor 4Way End End Corridor End Corridor End End 
-Content: Bat Spike Bat Spike Spike Spike Treasure Treasure Spike Treasure Treasure Treasure 
-Time: 1,785349
-
-Level: Start LCorridor Corridor 4Way End End End 
-Content: Bat Spike Treasure Treasure Treasure 
-Time: 1,913768
-
-Level: Start Corridor Corridor Corridor End 
-Content: Treasure Treasure 
-Time: 1,487988
-
-Level: Start LCorridor 4Way Corridor End Corridor End Corridor LCorridor LCorridor End 
-Content: Bat Bat Treasure Treasure Spike Treasure Bat Bat Spike 
-Time: 1,840212
-
-Level: Start 4Way 4Way Corridor LCorridor LCorridor End Corridor End Corridor End End End 
-Content: Spike Treasure Spike Spike Spike Treasure Treasure 
-Time: 1,903879
-
-Level: Start Corridor Corridor 4Way End End End 
-Content: Treasure Spike Bat Treasure Treasure Treasure 
-Time: 1,492318
-
-Level: Start 4Way 4Way Corridor End Corridor LCorridor Corridor End End End End 
-Content: Spike Bat Spike Treasure Spike Treasure Treasure Spike Treasure Treasure 
-Time: 1,818979
-
-Level: Start Corridor Corridor LCorridor Corridor 4Way End End End 
-Content: Treasure Spike Treasure Spike Treasure Spike Treasure Treasure 
-Time: 2,12652
-
-Level: Start Corridor Corridor 4Way LCorridor Corridor End End Corridor Corridor End 
-Content: Spike Treasure Bat Spike Treasure Spike Spike Treasure Spike Treasure Treasure 
-Time: 1,709666
-
-Level: Start Corridor Corridor LCorridor End 
-Content: Treasure Treasure Bat Spike Treasure 
-Time: 1,452148
-
-Level: Start Corridor LCorridor Corridor End 
-Content: Treasure Bat Spike Treasure 
-Time: 1,428395
-
-Level: Start LCorridor LCorridor Corridor End 
-Content: Bat Spike Bat Spike Spike 
-Time: 1,459379
-
-Level: Start Corridor LCorridor LCorridor End 
-Content: Treasure Bat 
-Time: 1,45221
-
-Level: Start Corridor LCorridor LCorridor 4Way End End 4Way End Corridor End End 
-Content: Spike Treasure Spike Bat Bat Treasure Treasure Bat Spike Treasure 
-Time: 1,713136
-
-Level: Start Corridor LCorridor Corridor 4Way End End End 
-Content: Treasure Bat Spike Spike Treasure Spike Treasure Treasure 
-Time: 1,698972
-
-Level: Start 4Way Corridor LCorridor End 4Way End End End End 
-Content: Bat Treasure Spike Treasure Treasure 
-Time: 1,723294
-
-Level: Start 4Way 4Way LCorridor End End Corridor LCorridor End Corridor End End 
-Content: Bat Treasure Treasure Treasure Spike Bat Spike Treasure Spike Treasure Treasure 
-Time: 2,124462
-
-Level: Start LCorridor 4Way Corridor End End End 
-Content: Spike Spike Treasure Treasure 
-Time: 1,516006
-
-Level: Start 4Way Corridor LCorridor 4Way LCorridor End End End End End 
-Content: Bat Spike Spike Bat Spike Bat Spike Bat Spike Treasure Treasure 
-Time: 1,737777
-
-Level: Start Corridor 4Way Corridor 4Way End End End End End 
-Content: Treasure Treasure Treasure Bat Spike Treasure Treasure Treasure Treasure 
-Time: 1,751848
-
-Level: Start LCorridor LCorridor 4Way LCorridor End End Corridor LCorridor 4Way End End Corridor End 
-Content: Bat Spike Bat Spike Bat Treasure Treasure Spike Spike Bat Spike Treasure Treasure Spike 
-Time: 1,781378
-
-Level: Start Corridor LCorridor Corridor 4Way End LCorridor End 4Way Corridor LCorridor 4Way Corridor LCorridor End Corridor LCorridor End End End End 
-Content: Spike Bat Bat Treasure Spike Treasure Bat Spike Spike Bat Spike Treasure Spike Bat Spike Treasure Treasure Treasure 
-Time: 1,757422
-
-Level: Start LCorridor LCorridor Corridor End 
-Content: Bat Spike 
-Time: 1,81966
+Level: Start Corridor Corridor Corridor Corridor Corridor Corridor Corridor Corridor Corridor End 
+Content: Treasure Spike Treasure Treasure Spike Spike Treasure 
+Time: 3,956008
+
+Level: Start Corridor Corridor Corridor Corridor Corridor Corridor Corridor Corridor End 
+Content: Spike Treasure Spike Treasure Treasure Treasure Treasure 
+Time: 6,481796
+
+Level: Start Corridor Corridor Corridor Corridor Corridor Corridor Corridor Corridor End 
+Content: Spike Treasure Spike Spike Treasure Treasure Spike Treasure Spike Treasure 
+Time: 11,31114
+
+Level: Start Corridor Corridor Corridor Corridor Corridor Corridor Corridor Corridor Corridor End 
+Content: Treasure Treasure Spike Treasure Spike Treasure 
+Time: 3,934164
+
+Level: Start Corridor Corridor Corridor Corridor Corridor Corridor Corridor Corridor End 
+Content: Treasure Spike Treasure Spike Treasure Spike Treasure Spike Spike Treasure Spike Treasure 
+Time: 12,75968
+
+Level: Start Corridor Corridor Corridor Corridor Corridor Corridor Corridor Corridor Corridor Corridor End 
+Content: Spike Treasure Spike Treasure Spike Treasure Spike Spike Treasure Spike Treasure Spike Treasure 
+Time: 5,492445
+
+Level: Start Corridor Corridor Corridor Corridor Corridor Corridor Corridor Corridor End 
+Content: Spike Spike Treasure Spike Spike Treasure Spike Treasure Spike Treasure Treasure Treasure Treasure 
+Time: 8,022387
+
+Level: Start Corridor Corridor Corridor Corridor Corridor Corridor Corridor Corridor End 
+Content: Spike Treasure Treasure Spike Spike Treasure Spike Spike Treasure Treasure 
+Time: 14,92211
+
+Level: Start Corridor Corridor Corridor Corridor Corridor Corridor Corridor Corridor Corridor End 
+Content: Spike Treasure Treasure Spike Treasure Spike Treasure Spike Treasure Spike Treasure Treasure Treasure Treasure 
+Time: 6,371818
+
+Level: Start Corridor Corridor Corridor Corridor Corridor Corridor Corridor Corridor End 
+Content: Treasure Spike Spike Treasure Spike Treasure Treasure 
+Time: 12,66114
+
+Level: Start Corridor Corridor Corridor Corridor Corridor Corridor Corridor Corridor End 
+Content: Treasure Spike Spike Treasure Spike Treasure 
+Time: 2,813493
+
+Level: Start Corridor Corridor Corridor Corridor Corridor Corridor Corridor Corridor End 
+Content: Treasure Spike Spike Treasure Spike Treasure Spike Treasure Treasure 
+Time: 7,345792
+
+Level: Start Corridor Corridor Corridor Corridor Corridor Corridor Corridor Corridor End 
+Content: Treasure Treasure Spike Treasure Spike Spike Treasure Spike Treasure 
+Time: 24,45634
+
+Level: Start Corridor Corridor Corridor Corridor Corridor Corridor Corridor Corridor End 
+Content: Spike Spike Treasure Treasure Spike Treasure Spike Treasure Treasure Treasure 
+Time: 15,76735
+
+Level: Start Corridor Corridor Corridor Corridor Corridor Corridor Corridor Corridor Corridor End 
+Content: Treasure Treasure Treasure Spike Treasure Spike Treasure Treasure Spike Spike Treasure 
+Time: 2,382765
+
+Level: Start Corridor Corridor Corridor Corridor Corridor Corridor Corridor Corridor End 
+Content: Treasure Spike Spike Treasure Spike Treasure Spike Treasure 
+Time: 14,27161
+
+Level: Start Corridor Corridor Corridor Corridor Corridor Corridor Corridor Corridor End 
+Content: Spike Treasure Treasure Spike Treasure Spike Treasure Spike Treasure Spike Treasure Spike Treasure Treasure 
+Time: 3,477995
+
+Level: Start Corridor Corridor Corridor Corridor Corridor Corridor Corridor Corridor End 
+Content: Spike Treasure Spike Spike Spike Treasure Spike Spike Treasure Spike Treasure Treasure 
+Time: 31,40681
 

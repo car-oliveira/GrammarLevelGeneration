@@ -333,10 +333,6 @@ MonoBehaviour:
     asset: {fileID: 4367390531386127047, guid: 0e9740cf36d2c974d8128fcfb5a0644f, type: 3}
   - name: Corridor
     asset: {fileID: 516757242784723970, guid: 59862c9ce01107c49a827c28263cded3, type: 3}
-  - name: LCorridor
-    asset: {fileID: 8535917422584426320, guid: 8718cb82107f9b84689c74e0acf6228f, type: 3}
-  - name: 4Way
-    asset: {fileID: 2968290515941660456, guid: 718e43602025a2b4491f3b2da2feff37, type: 3}
   contentAssets:
   - name: Bat
     asset: {fileID: 1625221395402176, guid: c9951ca0f61167b4593ffe21b0a089c8, type: 3}
@@ -348,9 +344,12 @@ MonoBehaviour:
     type: 3}
   grammarManager: {fileID: 11400000, guid: 676e4c73de0a85c4498e4b1ca0d860a4, type: 2}
   numberOfAttempts: 3
-  minimumSentenceSize: 5
+  minimumSentenceSize: 10
   probabilityAdjustment: 10
-  levelGrammarFile: {fileID: 4900000, guid: d7ca3050a1831084f810b48739b4ab86, type: 3}
+  minimumProbability: 0
+  maximumProbability: 0
+  maximumContentPerRoom: 0
+  levelGrammarFile: {fileID: 4900000, guid: d59ab44938fb99340b67693f5ec4a26e, type: 3}
   contentGrammarFile: {fileID: 4900000, guid: a2b69bef0facdb34da7736ec73516cde, type: 3}
   renderedLevel: 
   previousRoom: {fileID: 0}

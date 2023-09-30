@@ -11,6 +11,7 @@ public class Generator : MonoBehaviour
 {
     [SerializeField] private LayerMask _collisionLayer;
 
+
     //List of the room types with the associated assets
     public List<RoomAsset> roomAssets;
 
@@ -31,6 +32,12 @@ public class Generator : MonoBehaviour
 
     //Value by which a rule that is applied is decreased and the rules with the least probability is increased
     public int probabilityAdjustment;
+
+    public int minimumProbability;
+
+    public int maximumProbability;
+
+    public int maximumContentPerRoom;
 
     //Text file containing the level grammar
     public TextAsset levelGrammarFile;
@@ -367,6 +374,16 @@ public class Generator : MonoBehaviour
             {
                 contentQueue.Enqueue(split);
             }
+            //while(contentQueue.Count > maximumContentPerRoom)
+            //{
+            //    contentString = grammarManager.contentGrammar.grammar.GenerateSentenceFromString(roomType);
+            //    contentQueue = new Queue<string>();
+            //    splitContentString = contentString.Split(' ');
+            //    foreach (string split in splitContentString)
+            //    {
+            //        contentQueue.Enqueue(split);
+            //    }
+            //}
 
                 InstantiateRoomContent(contentQueue, roomScript.GetColliderContainer(room.gameObject).GetComponent<BoxCollider>(), room);
         }
@@ -527,7 +544,6 @@ public class Generator : MonoBehaviour
                 {
                     if (Physics.Raycast(rayPos, rayDirection, out hit, rayDistance, _collisionLayer))
                     {
-                        Debug.Log("Raycast hit: " + hit.transform.gameObject.layer);
                         if (hit.transform.gameObject.layer != 9)
                         {
                             posX = UnityEngine.Random.Range((-worldHalfExtents.x), worldHalfExtents.x);

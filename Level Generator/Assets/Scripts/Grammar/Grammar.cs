@@ -14,14 +14,14 @@ public class Grammar
     public float maximumProbability;
 
 
-    public Grammar(List<string> terminalSymbols, List<string> nonTerminalSymbols, List<ProductionRule> productionRules)
+    public Grammar(List<string> terminalSymbols, List<string> nonTerminalSymbols, List<ProductionRule> productionRules, float probabilityAdjustment, float minimumProbability, float maximumProbability)
     {
         this.terminalSymbols = terminalSymbols;
         this.nonTerminalSymbols = nonTerminalSymbols;
         this.productionRules = productionRules;
-        this.probabilityAdjustment = 10f;
-        this.minimumProbability = 15f;
-        this.maximumProbability = 60f;
+        this.probabilityAdjustment = probabilityAdjustment;
+        this.minimumProbability = minimumProbability;
+        this.maximumProbability = maximumProbability;
     }
 
     public void SetProbabilityAdjustment(float adjustment)
